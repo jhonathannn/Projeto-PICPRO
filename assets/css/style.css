@@ -1,0 +1,365 @@
+body {
+    background-color: #4a8864;
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+.cabecalho {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho figure img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.cabecalho .cabecalho_logoPicPro{
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    margin-right: 10px;
+}
+
+.secaoDetalhesConta {
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.secaoDetalhesConta_Usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.secaoDetalhesConta_Usuario--nome, .secaoDetalhesConta_Usuario--icones {
+    display: flex;
+    align-items: center;
+}
+
+.secaoDetalhesConta_Usuario--icones img{
+    margin: 0 10px;
+}
+
+.secaoDetalhesConta_Usuario p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.secaoDetalhesConta_Usuario img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.secaoDetalhesConta_Usuario p strong {
+    display: block;
+    font-weight: bold;
+}
+
+.secaoDetalhesConta_Saldo {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.secaoDetalhesConta_Saldo--valor{
+    display: flex;
+}
+
+.secaoDetalhesConta_Saldo p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.secaoDetalhesConta_Saldo--valor p {
+    font-weight: 600;
+}
+
+.secaoDetalhesConta_Saldo--valor img {
+    display: block;
+    height: 20px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.secaoDetalhesConta_Saldo button {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.secaoDetalhesConta_OpcoesTransacoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secaoDetalhesConta_OpcoesTransacoes li {
+   background-color: #1f6f54;
+   width: 170px;
+   height: 177px;
+   border-radius: 15px;
+   padding: 45px 22px; 
+   cursor: pointer;
+}
+
+.secaoDetalhesConta_OpcoesTransacoes li img {
+    width: 100%;
+    max-width: 45px;
+}
+
+.secaoDetalhesConta_OpcoesTransacoes li p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 80px;
+}
+
+.secaoTransacao {
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 15px solid #f0f0f0;
+    padding: 30px 0;
+    min-height: 450px;
+}
+
+.secaoTransacao .container div {
+    display: none;
+}
+
+.secaoTransacao .container div.mostrar{
+    display: block;
+}
+
+.secaoTransacao_avisoSelecao p{
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);;
+}
+
+.secaoTransacao_avisoSelecao img{
+    margin: 30px 0 90px;
+    width: 100%;
+}
+
+.secaoTransacao_qrcode {
+    text-align: center;
+}
+
+.secaoTransacao_qrcode img{
+    max-width: 180px;
+}
+
+.secaoTransacao_qrcode p {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secaoTransacao_qrcode button {
+    background-color: #4a8864;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20px;
+    padding: 15px 150px;
+    cursor: pointer;
+}
+
+.secaoTransacao_qrcode a {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+.ecaoTransacao_pix img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.secaoTransacao_boxOpcao {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d2d2d2;]
+    max-width: 500px;
+    padding: 14px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}       
+
+.secaoTransacao_boxOpcao img{
+    width: 100%;
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.secaoTransacao_boxOpcao p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.secaoTransacao_boleto {
+
+}
+
+.secaoTransacao_boleto img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.secaoTransacao_boleto h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secaoTransacao_boleto p {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.secaoTransacao_boleto input {
+    width: 100%;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #d2d2d2;
+    color: black;
+    box-sizing: border-box;
+}
+
+.secaoTransacao_cobrar {
+}
+
+.secaoTransacao_cobrar img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.secaoTransacao_cobrar h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secaoTransacao_cobrar p {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.secaoTransacao_cobrar .secaoTransacao_boxOpcao p {
+    margin-left: 10px;
+}
+
+.rodape {
+    background-color: #fff;
+
+}
+
+.rodape__menuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape__menuPrincipal li {
+    text-align: center;
+}
+.rodape__menuPrincipal li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.rodape__menuPrincipal li a img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.rodape__menuPrincipal li a p {
+    margin-top: 15px;
+}
+
+.rodape__menuItem--pagar {
+    transform: translateY(-35px);
+}
+
+.rodape__menuPrincipal .rodape__menuItem--pagar a img {
+    max-width: 95px;
+}
+
+/* Desafio Hover */
+.secaoDetalhesConta_itemTransacao:hover {
+    background-color: #fff;
+    color: #228664;
+}
+  .secaoDetalhesConta_itemTransacao figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .secaoDetalhesConta_itemTransacao--qrcode figure {
+    background-image: url("../img/qrcode.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  .secaoDetalhesConta_itemTransacao--pix figure {
+    background-image: url("../img/pix.png");
+  }
+  .secaoDetalhesConta_itemTransacao--boleto figure {
+    background-image: url("../img/codigo.png");
+    width: 100%;
+    max-width: 65px;
+  }
+  .secaoDetalhesConta_itemTransacao--cobrar figure {
+    background-image: url("../img/cobrar-icon.png");
+    width: 100%;
+    max-width: 60px;
+  }
+  /* EFEITO HOVERS */
+  .secaoDetalhesConta_itemTransacao--qrcode:hover figure {
+    background-image: url("../img/qrcode-verde.png");
+  }
+  .secaoDetalhesConta_itemTransacao--pix:hover figure {
+    background-image: url("../img/pix-verde.png");
+  }
+  .secaoDetalhesConta_itemTransacao--boleto:hover figure {
+    background-image: url("../img/boleto-verde.png");
+  }
+  .secaoDetalhesConta_itemTransacao--cobrar:hover figure {
+    background-image: url("../img/cobrar-verde.png");
+  }
+  
+  .secaoDetalhesConta_itemTransacao figure img {
+    width: 100%;
+    max-width: 25px;
+    height: 20px;
+    opacity: 0;
+  }
